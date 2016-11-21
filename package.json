@@ -1,0 +1,15 @@
+{
+  "name": "tttt_dcard_crawler_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hao-Cher Hong <rax333j@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "request": "^2.79.0"
+  }
+}
