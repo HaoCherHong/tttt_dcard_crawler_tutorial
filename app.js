@@ -109,7 +109,9 @@ var handlePage = function(baseUrl, before) {
 }
 
 co(function*() {
-	yield handlePage('https://www.dcard.tw/_api/forums/sex/posts?popular=false');
+	if(!fs.existsSync('images/'))
+		fs.mkdirSync('images/');
+	yield handlePage('https://www.dcard.tw/_api/forums/photography/posts?popular=true');
 }).catch(function(err) {
 	console.error(err);
 })
